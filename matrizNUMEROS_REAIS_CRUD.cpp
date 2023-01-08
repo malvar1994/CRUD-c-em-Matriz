@@ -19,7 +19,7 @@ puts("=============INSERINDO ELEMENTO==============");
 	{
 		printf("%d\370 Linha:\n", linha+1);
 		
-		//inserção na tabela 2
+		//inserÃ§Ã£o na tabela 2
 		for(int coluna = 0; coluna < 2; coluna++)
 		{
 			printf("informe valor da %d\370coluna: ", coluna+1);
@@ -69,7 +69,7 @@ puts("==============BUSCANDO ELEMENTO================");
 		if (record == false)
 		{
 		
-		puts("Elemento não encontrado\n");
+		puts("Elemento nÃ£o encontrado\n");
 		}
 		sleep(1);		
 system("cls");	
@@ -107,7 +107,7 @@ puts("===============REMOVENDO ELEMENTO==================");
 		}
 		if (!encontrado)
 		{
-			puts("Elemento não encontrado\n");		
+			puts("Elemento nÃ£o encontrado\n");		
 			
 		}sleep(1);
 		system("cls");
@@ -151,7 +151,7 @@ puts("===============ALTERANDO ELEMENTO ==================");
 		}
 				if(!encontrado)
 				{
-					puts("Não encontrado.");
+					puts("NÃ£o encontrado.");
 				}
 
 	sleep(1);
@@ -168,3 +168,4 @@ puts("===============ALTERANDO ELEMENTO ==================");
 
 	return 0;
 }
+//Matheus Malvar
